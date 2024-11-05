@@ -1,7 +1,15 @@
 spellchecker: aspell
-  ignores:
-  - init
 matrix:
+pipeline:
+    - pyspelling.filters.markdown:
+        markdown_extensions:
+        - pymdownx.superfences
+    - pyspelling.filters.html:
+        comments: false
+        ignores:
+        - code
+        - pre
+        - init
 - name: Text Files
   sources:
   - "**/*.txt"
