@@ -5,4 +5,4 @@ matrix:
   - "**/*.txt"
   - "**/*.md"
   ignores:
-  - "init"
+  - "how-to-use-git.md"
