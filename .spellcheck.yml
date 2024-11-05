@@ -4,5 +4,3 @@ matrix:
   sources:
   - "**/*.txt"
   - "**/*.md"
-  ignores:
-  - "how-to-use-git.md"
