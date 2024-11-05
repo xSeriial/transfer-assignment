@@ -1,4 +1,6 @@
 spellchecker: aspell
+  ignores:
+  - init
 matrix:
 - name: Text Files
   sources:
